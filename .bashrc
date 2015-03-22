@@ -122,6 +122,9 @@
 # alias la='ls -A'                              # all but . and ..
 # alias l='ls -CF'                              #
 
+lias grep='grep --color=auto'
+126 [ -x /usr/bin/dircolors ] &&  eval "$(dircolors -b)"
+127 alias ls='ls --color=auto'
 
 
 # Umask
